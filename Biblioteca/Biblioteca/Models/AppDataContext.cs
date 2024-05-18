@@ -5,6 +5,7 @@ namespace Biblioteca.Models;
 //Classe que representa o EF dentro do projeto
 public class AppDataContext : DbContext
 {
+    
     //Classes que vão representar as tabelas
     //no banco de dados
     public DbSet<Livros> Livro { get; set; }
